@@ -3,7 +3,7 @@ cwlVersion: v1.0
 
 requirements:
   - class: DockerRequirement
-    dockerPull: "reshg/waldronlab_devel_variants:latest"
+    dockerPull: "bjstubbs/waldronvariants"
 
 inputs:
   script:
