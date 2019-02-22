@@ -1,0 +1,6 @@
+{
+"script" : {"class":"File","path":"annotateVariants.R"},
+"vanilla": "--vanilla",  
+"symbol":"ORMDL3",
+"radius":20000
+}
