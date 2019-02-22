@@ -1,5 +1,13 @@
-class: CommandLineTool
+doc: dockstore test
+id: dockstoretest
+label: test
+
 cwlVersion: v1.0
+
+dct:creator:
+  foaf:name: bj
+
+class: CommandLineTool
 
 requirements:
   - class: DockerRequirement
