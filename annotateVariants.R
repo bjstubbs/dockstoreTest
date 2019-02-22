@@ -1,5 +1,5 @@
 args = commandArgs(trailingOnly=TRUE)
-BiocManager::install('variants', version = '3.9', update=TRUE, ask=FALSE);
+#BiocManager::install('variants', version = '3.9', update=TRUE, ask=FALSE);
 library('variants');
 file <- system.file('vcf', 'NA06985_17.vcf.gz', package = 'cgdv17');
 genesym <- args[1];
