@@ -30,8 +30,10 @@ inputs:
       position: 4
 
 outputs:
-  Rscript_Output:
+  Rscript_out:
    type: File
+   outputBinding:
+      glob: result.csv
 
 
 baseCommand: Rscript
